@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding-top:800px;
+    
+}
+.profile{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#welcome{
+    position:absolute;
+    height: 800px;
+    color: black;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    background: linear-gradient(#3333cc 50%,#c2c225 100%);
+   display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;      
+}
+.menu{
+    list-style: none;
+    font-family: fantasy;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links{
+    float: left;
+    color: aqua;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    
+}
